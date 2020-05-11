@@ -1,0 +1,38 @@
+
+xmonad.hs:105:15: warning: [-Wdeprecations]
+    In the use of ‘defaultXPConfig’ (imported from XMonad.Prompt):
+    Deprecated: "Use def (from Data.Default, and re-exported from XMonad.Prompt) instead."
+    |
+105 | oxyXPConfig = defaultXPConfig { font              = "xft:Consolas-12"
+    |               ^^^^^^^^^^^^^^^
+
+xmonad.hs:156:12: warning: [-Wdeprecations]
+    In the use of ‘defaultTheme’
+    (imported from XMonad.Layout.TabBarDecoration, but defined in XMonad.Layout.Decoration):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad.Layout.Decoration) instead."
+    |
+156 | oxyTheme = defaultTheme { inactiveBorderColor = "#000"
+    |            ^^^^^^^^^^^^
+
+xmonad.hs:169:16: warning: [-Wdeprecations]
+    In the use of ‘defaultTheme’
+    (imported from XMonad.Layout.TabBarDecoration, but defined in XMonad.Layout.Decoration):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad.Layout.Decoration) instead."
+    |
+169 | oxyDarkTheme = defaultTheme { inactiveBorderColor = "#777"
+    |                ^^^^^^^^^^^^
+
+xmonad.hs:196:11: warning: [-Wdeprecations]
+    In the use of ‘defaultPP’ (imported from XMonad.Hooks.DynamicLog):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad.Hooks.DynamicLog) instead."
+    |
+196 | oxyPP h = defaultPP  { ppCurrent = wrap "<fc=black,aquamarine3> " " </fc>" 
+    |           ^^^^^^^^^
+
+xmonad.hs:234:17: warning: [-Wdeprecations]
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+    |
+234 | defaults pipe = defaultConfig {
+    |                 ^^^^^^^^^^^^^
