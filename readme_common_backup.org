@@ -1,0 +1,19 @@
+
+ oxymor00n_archive Branch
+ ethan_schoonover  Branch init all added
+ vicfryzel         Branch init all added
+xmonad-x86_64-linux
+xmonad-session-rc
+xmonad.hs
+xmonad.errors
+xmonad-config.org
+xmobar-single.hs
+xmobar-dual.hs
+startup.sh
+stalonetrayrc-single
+stalonetrayrc-dual
+screenshot.png
+get-volume.sh
+get-battery.sh
+bin
+

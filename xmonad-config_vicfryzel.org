@@ -1,0 +1,10 @@
+
+
+[[https://github.com/vicfryzel/xmonad-config][GitHub - vicfryzel/xmonad-config: My xmonad and xmobar configuration, plus necessary scripts to make things more usable.]]
+
+처음에 오류가 많이 발생한 것은 pacman의 업데이트가 불완전해서 실행에러가 난 것으로 추정되며
+업데이트후 잘 실행된다.
+sudo cabal update
+cabal install --global yeganesh
+yay consolekit-git Also install the consolekit-git
+

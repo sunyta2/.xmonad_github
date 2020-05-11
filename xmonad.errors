@@ -1,0 +1,39 @@
+
+xmonad.hs:136:5: warning: [-Wdeprecations]
+    In the use of ‘spacing’ (imported from XMonad.Layout.Spacing):
+    Deprecated: "Use spacingRaw instead."
+    |
+136 |     spacing 2 $ OneBig 0.92 0.9 |||
+    |     ^^^^^^^
+
+xmonad.hs:175:13: warning: [-Wdeprecations]
+    In the use of ‘defaultTheme’
+    (imported from XMonad.Layout.Tabbed, but defined in XMonad.Layout.Decoration):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad.Layout.Decoration) instead."
+    |
+175 | tabConfig = defaultTheme {
+    |             ^^^^^^^^^^^^
+
+xmonad.hs:309:19: warning: [-Wdeprecations]
+    In the use of ‘defaultGSConfig’
+    (imported from XMonad.Actions.GridSelect):
+    Deprecated: "Use def (from Data.Default, and re-exported from XMonad.Actions.GridSelect) instead."
+    |
+309 |      goToSelected defaultGSConfig)
+    |                   ^^^^^^^^^^^^^^^
+
+xmonad.hs:314:20: warning: [-Wdeprecations]
+    In the use of ‘defaultGSConfig’
+    (imported from XMonad.Actions.GridSelect):
+    Deprecated: "Use def (from Data.Default, and re-exported from XMonad.Actions.GridSelect) instead."
+    |
+314 |      bringSelected defaultGSConfig)
+    |                    ^^^^^^^^^^^^^^^
+
+xmonad.hs:553:12: warning: [-Wdeprecations]
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+    |
+553 | defaults = defaultConfig {
+    |            ^^^^^^^^^^^^^
