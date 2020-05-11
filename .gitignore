@@ -19,6 +19,13 @@ xmonad.hs~
 xmonad.o
 xmonad-x86_64-linux
 
+readme_xmonad_ethan_schoonover.org
+#	lib/
+#	prompt-history
+#	xmobar.conf
+#	xmonad.errors
+#	xmonad.hs
+
 
 /.fseventsd
 /.Spotlight-V100
