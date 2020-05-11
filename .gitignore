@@ -1,0 +1,32 @@
+# -*- org -*- 
+    #+TITLE:  sunyta2/.xmonad_github/.gitignore
+#+Core_VALUE: 
+#+where_is_source_FILE: (find-file "~/config_github/great_books/_achieve_agenda/project.org")
+
+# 를 표시한 것은 tracked의 의사를 표시한 것이다.
+
+# .gitignore
+# xmobarrc
+# xmonad.errors
+# xmonad.hs
+*.hi
+*.o
+*~
+.gitignore~
+xmobarrc~
+xmonad.hi
+xmonad.hs~
+xmonad.o
+xmonad-x86_64-linux
+
+
+/.fseventsd
+/.Spotlight-V100
+\#*\#
+.\#*
+.DS_Store
+/.fseventsd
+/.Spotlight* #/.Spotlight-V100
+*.swp
+*.swo
+[._]*.s[a-v][a-z]
